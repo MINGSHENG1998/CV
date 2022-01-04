@@ -20,7 +20,7 @@ class Resume extends Component {
       var publications = this.props.data.publications.map(function (publications) {
         return <div>
           <p className="info publications">{publications.title}</p>
-          <a className="publications_url" href={publications.publicationUrl} target="_blank">Click here to continue reading</a>
+          <a className="publications_url" href={publications.publicationUrl} target="_blank">Read full Publication here</a>
           <a href={publications.publicationUrl} target="_blank">
           <Document
             file={publications.publicationLocal}
