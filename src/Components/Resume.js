@@ -20,7 +20,7 @@ class Resume extends Component {
       var publications = this.props.data.publications.map(function (publications) {
         return <div>
           <p className="info publications">{publications.title}</p>
-          <a className="publications_url" href={publications.publicationUrl} target="_blank">Read full Publication here</a>
+          <a className="publications_url" href={publications.publicationUrl} target="_blank">Read full git status here</a>
           <a href={publications.publicationUrl} target="_blank">
           <Document
             file={publications.publicationLocal}
@@ -63,7 +63,18 @@ class Resume extends Component {
           </div>
         </div>
 
-        <div className="row education">
+        {/* <div className="row technology">
+
+          <div className="three columns header-col">
+            <h1><span>Technologies</span></h1>
+          </div>
+          <div className="nine columns main-col">
+            
+          </div>
+          
+        </div> */}
+
+        <div className="row publication">
 
           <div className="three columns header-col">
             <h1><span>Publications</span></h1>
@@ -74,7 +85,7 @@ class Resume extends Component {
           
         </div>
 
-        <div className="row skill">
+        {/* <div className="row skill">
 
           <div className="three columns header-col">
             <h1><span>Skills</span></h1>
@@ -91,7 +102,7 @@ class Resume extends Component {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     );
   }
