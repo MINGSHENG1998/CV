@@ -3,9 +3,9 @@
     "name": "Khaw Ming Sheng",
     "occupation": "Frontend Developer",
     "description": "with 2 years experience on building and maintaining responsive web and mobile application. Proficient in frontend development, styling, deployment and maintainance",
-    "image": "profilepic.jpg",
+    "image": "profilepic.jfif",
     "bio": "Passionate young professional intending to strengthen ability and challenge oneself to reach greater height.",
-    "contactmessage": "Open to any opportunity and project involve with modern technology.",
+    "contactmessage": "Open to any opportunity and project involve with modern and cutting-edge technology.",
     "email": "khawmingsheng@hotmail.com",
     "phone": "(+60)13-7538672",
     "address": {
@@ -16,27 +16,17 @@
     },
     "publication":"http://ijcrr.com/uploads/3751_pdf.pdf",
     "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
+    "resumedownload": "../documents/CV.docx",
     "social": [
-      {
-        "name": "facebook",
-        "url": "http://facebook.com/tim.baker.906",
-        "className": "fa fa-facebook"
-      },
-      {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
-      },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/khawmingsheng/",
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "http://instagram.com/tbaker_x",
-        "className": "fa fa-instagram"
+        "name": "Email",
+        "url": "mailto:khawmingsheng@hotmail.com",
+        "className": "fa fa-envelope-o"
       },
       {
         "name": "github",
