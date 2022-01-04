@@ -1,19 +1,20 @@
 {
   "main": {
     "name": "Khaw Ming Sheng",
-    "occupation": "(Your Occupation Here)",
-    "description": "Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "occupation": "Frontend Developer",
+    "description": "with 2 years experience on building and maintaining responsive web and mobile application. Proficient in frontend development, styling, deployment and maintainance",
     "image": "profilepic.jpg",
-    "bio": "Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "bio": "Passionate young professional intending to strengthen ability and challenge oneself to reach greater height.",
+    "contactmessage": "Open to any opportunity and project involve with modern technology.",
+    "email": "khawmingsheng@hotmail.com",
+    "phone": "(+60)13-7538672",
     "address": {
-      "street": "(Your Street)",
-      "city": "(Your City)",
-      "state": "(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street": "B-12-03, Kiara Residence 2,",
+      "city": "Bukit Jalil",
+      "state": "Kuala Lumpur",
+      "zip": "58200"
     },
+    "publication":"http://ijcrr.com/uploads/3751_pdf.pdf",
     "website": "http://www.timbakerdev.com",
     "resumedownload": "http://timbakerdev.com",
     "social": [
@@ -29,7 +30,7 @@
       },
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url": "https://www.linkedin.com/in/khawmingsheng/",
         "className": "fa fa-linkedin"
       },
       {
@@ -48,30 +49,24 @@
     "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "University?",
-        "degree": "Masters in Beer tasting",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school": "School #1 Maybe College?",
-        "degree": "What did you study 101",
-        "graduated": "March 2003",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "ASIA PACIFIC UNIVERSITY MALAYSIA",
+        "degree": "Bachelor of Science (Hons) in Software Engineering",
+        "graduated": "2017 - 2020",
+        "description": "Joined as an ordinary student, gained experience along the journey, graduated with clear path and vision."
       }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Altecflex Sdn. Bhd.",
+        "title": "Software Engineer",
+        "years": "June 2021 - Present",
+        "description": "Develop e-commerce platform (web & mobile) with React JS & React Native. As a sole frontend developer, built a company management tool (Qanban) from scratch."
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Abletech Solutions Sdn Bhd",
+        "title": "Junior Full Stack Software Developer",
+        "years": "August 2020 - June 2021",
+        "description": "Develop e-commerce site (SUBPLACE) with Angular 8+ and Java Springboot."
       }
     ],
     "skills": [
