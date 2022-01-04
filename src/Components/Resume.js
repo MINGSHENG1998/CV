@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+import { Document, Page, pdfjs } from 'react-pdf';
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 class Resume extends Component {
   render() {
 
@@ -15,6 +16,20 @@ class Resume extends Component {
         return <div key={education.school}><h3>{education.school}</h3>
           <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
           <p>{education.description}</p></div>
+      })
+      var publications = this.props.data.publications.map(function (publications) {
+        return <div>
+          <p className="info publications">{publications.title}</p>
+          <a className="publications_url" href={publications.publicationUrl} target="_blank">Click here to continue reading</a>
+          <a href={publications.publicationUrl} target="_blank">
+          <Document
+            file={publications.publicationLocal}
+            onLoadError={console.error}
+          >
+            <Page pageNumber={1} />
+          </Document>
+          </a>
+        </div>
       })
       var skills = this.props.data.skills.map(function (skills) {
         var className = 'bar-expand ' + skills.name.toLowerCase();
@@ -46,6 +61,17 @@ class Resume extends Component {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="row education">
+
+          <div className="three columns header-col">
+            <h1><span>Publications</span></h1>
+          </div>
+          <div className="nine columns main-col">
+            {publications}
+          </div>
+          
         </div>
 
         <div className="row skill">
