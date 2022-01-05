@@ -267,6 +267,26 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
+.technologies-list{
+   width:100%;
+   margin-top: 40px;
+}
+.technologies-list td{
+   max-width:50%;
+   width:50%;
+   text-align: center;
+}
+.technologies-items{
+   list-style: none;
+}
+.technologies-items img{
+   height: 50px;
+   max-width: 100px;
+}
+.technologies-items p{
+   margin-top: 5px;
+   font-size: medium;
+}
 #resume .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #6E7881;

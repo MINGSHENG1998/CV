@@ -13,7 +13,7 @@
       "city": "Bukit Jalil",
       "state": "Kuala Lumpur",
       "zip": "58200"
-    },    
+    },
     "website": "http://www.timbakerdev.com",
     "resumedownload": "../documents/CV.docx",
     "social": [
@@ -58,13 +58,40 @@
         "description": "Develop e-commerce site (SUBPLACE) with Angular 8+ and Java Springboot."
       }
     ],
-    "publications":[
-    {
-      "title":"Web Based Suicide Prevention Application for Patients Suffering from Depression",
-      "publicationUrl":"http://ijcrr.com/uploads/3751_pdf.pdf",
-      "publicationLocal":"../documents/Web_Based_Suicide_Prevention_Application_Publication.pdf"
-    }]
-    ,
+    "technologies": {
+      "message":"Here are some of the frameworks that I used for various projects.",
+      "frontend": [
+        {
+          "name": "Angular",
+          "IconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg"
+        },
+        {
+          "name": "React js",
+          "IconUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+        },
+        {
+          "name": "React Native",
+          "IconUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+        }
+      ],
+      "backend": [
+        {
+          "name": "Java Springboot",
+          "IconUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Spring_Framework_Logo_2018.svg"
+        },
+        {
+          "name": "ASP.NET",
+          "IconUrl": "https://logodix.com/logo/1796970.png"
+        }
+      ]
+    },
+    "publications": [
+      {
+        "title": "Web Based Suicide Prevention Application for Patients Suffering from Depression",
+        "publicationUrl": "http://ijcrr.com/uploads/3751_pdf.pdf",
+        "publicationLocal": "../documents/Web_Based_Suicide_Prevention_Application_Publication.pdf"
+      }
+    ],
     "skills": [
       {
         "name": "Git",
