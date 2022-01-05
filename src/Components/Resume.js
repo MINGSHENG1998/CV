@@ -60,7 +60,7 @@ class Resume extends Component {
               href={publications.publicationUrl}
               target="_blank"
             >
-              Read full git status here
+              Read full Publication here
             </a>
             <a href={publications.publicationUrl} target="_blank">
               <Document
