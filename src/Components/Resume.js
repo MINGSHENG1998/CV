@@ -49,6 +49,16 @@ class Resume extends Component {
           </li>
         );
       });
+      var hosting = this.props.data.technologies.hosting.map(function (
+        hosting
+      ) {
+        return (
+          <li style={{ listStyle: "none" }} className="technologies-items">
+            <img src={hosting.IconUrl} style={{height: "50px", maxWidth: "100px"}} />
+            <p>{hosting.name}</p>
+          </li>
+        );
+      });
       var publications = this.props.data.publications.map(function (
         publications
       ) {
@@ -116,6 +126,9 @@ class Resume extends Component {
                 <td>
                   <h4>Backend</h4>
                 </td>
+                <td>
+                  <h4>Hosting</h4>
+                </td>
               </tr>
               <tr>
                 <td>
@@ -123,6 +136,9 @@ class Resume extends Component {
                 </td>
                 <td>
                   <ul>{backend}</ul>
+                </td>
+                <td>
+                  <ul>{hosting}</ul>
                 </td>
               </tr>
             </table>
