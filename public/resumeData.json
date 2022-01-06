@@ -59,7 +59,7 @@
       }
     ],
     "technologies": {
-      "message":"Here are some of the frameworks that I used for various projects.",
+      "message":"Here are some of the frameworks and technologies that I used for various projects.",
       "frontend": [
         {
           "name": "Angular",
