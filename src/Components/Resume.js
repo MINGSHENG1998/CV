@@ -33,8 +33,8 @@ class Resume extends Component {
         frontend
       ) {
         return (
-          <li style={{ listStyle: "none" }} className="technologies-items">
-            <img src={frontend.IconUrl} style={{height: "50px"}} />
+          <li className="technologies-items">
+            <img src={frontend.IconUrl} />
             <p>{frontend.name}</p>
           </li>
         );
@@ -43,8 +43,8 @@ class Resume extends Component {
         backend
       ) {
         return (
-          <li style={{ listStyle: "none" }} className="technologies-items">
-            <img src={backend.IconUrl} style={{height: "50px", maxWidth: "100px"}} />
+          <li className="technologies-items">
+            <img src={backend.IconUrl} />
             <p>{backend.name}</p>
           </li>
         );
@@ -53,8 +53,8 @@ class Resume extends Component {
         hosting
       ) {
         return (
-          <li style={{ listStyle: "none" }} className="technologies-items">
-            <img src={hosting.IconUrl} style={{height: "50px", maxWidth: "100px"}} />
+          <li className="technologies-items">
+            <img src={hosting.IconUrl}/>
             <p>{hosting.name}</p>
           </li>
         );
@@ -122,22 +122,14 @@ class Resume extends Component {
               <tr>
                 <td>
                   <h4>Frontend</h4>
-                </td>
-                <td>
-                  <h4>Backend</h4>
-                </td>
-                <td>
-                  <h4>Hosting</h4>
-                </td>
-              </tr>
-              <tr>
-                <td>
                   <ul>{frontend}</ul>
                 </td>
                 <td>
+                  <h4>Backend</h4>
                   <ul>{backend}</ul>
                 </td>
                 <td>
+                  <h4>Hosting</h4>
                   <ul>{hosting}</ul>
                 </td>
               </tr>
