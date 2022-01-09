@@ -280,6 +280,10 @@ ul#nav li.current a { color: #F06000; }
    max-width:33%;
    width:33%;
    text-align: center;
+   border-right: 1px solid #E8E8E8;
+}
+.technologies-list .last-item{
+   border-right: none;
 }
 @media only screen and (max-width: 430px) {
    .technologies-list tr{
@@ -293,6 +297,7 @@ ul#nav li.current a { color: #F06000; }
       text-align: center;
       margin-bottom: 20px;
       border-bottom: 1px solid #E8E8E8;
+      border-right: none;
    }
    .technologies-items img{
       height: 70px;

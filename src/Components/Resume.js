@@ -128,7 +128,7 @@ class Resume extends Component {
                   <h4>Backend</h4>
                   <ul>{backend}</ul>
                 </td>
-                <td>
+                <td className="last-item">
                   <h4>Hosting</h4>
                   <ul>{hosting}</ul>
                 </td>
