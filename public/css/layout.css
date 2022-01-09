@@ -305,6 +305,12 @@ ul#nav li.current a { color: #F06000; }
 #resume .publications_url {
    float: right;
 }
+
+#resume .react-pdf__Page__canvas{
+   width: 100% !important;
+   height: auto !important;
+}
+
 #resume .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
