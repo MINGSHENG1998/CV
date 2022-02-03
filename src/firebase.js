@@ -1,5 +1,6 @@
 import { initializeApp } from 'firebase/app';
 import { getStorage } from "firebase/storage";
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
     authDomain: "khaw-ming-sheng-cv.firebaseapp.com",
@@ -9,6 +10,10 @@ const firebaseConfig = {
 
   const firebaseApp = initializeApp(firebaseConfig);
   const storage = getStorage(firebaseApp);
-  
+  const db = getFirestore();
+  const firebaseChunk = {
+    storage,
+    db
+  }
 
-export default storage;
+export default firebaseChunk;

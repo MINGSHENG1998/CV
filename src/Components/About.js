@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import storage from './../firebase';
+import firebaseChunk from './../firebase';
 import { ref, getDownloadURL } from "firebase/storage";
 
 class About extends Component {
   render() {
-   getDownloadURL(ref(storage, 'doc/CV.pdf'))
+     
+   getDownloadURL(ref(firebaseChunk.storage, 'doc/CV.pdf'))
    .then((url) => {
      const downloadBtn = document.getElementById('resumeDownload');
      downloadBtn.setAttribute('href', url);
