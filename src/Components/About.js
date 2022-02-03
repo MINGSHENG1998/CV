@@ -4,7 +4,7 @@ import { ref, getDownloadURL } from "firebase/storage";
 
 class About extends Component {
   render() {
-   getDownloadURL(ref(storage, 'doc/CV.docx'))
+   getDownloadURL(ref(storage, 'doc/CV.pdf'))
    .then((url) => {
      const downloadBtn = document.getElementById('resumeDownload');
      downloadBtn.setAttribute('href', url);
