@@ -1,8 +1,19 @@
 import React, { Component } from 'react';
+import firebaseChunk from './../firebase';
+import { ref, getDownloadURL } from "firebase/storage";
 
 class About extends Component {
   render() {
-
+     
+   getDownloadURL(ref(firebaseChunk.storage, 'doc/CV.pdf'))
+   .then((url) => {
+     const downloadBtn = document.getElementById('resumeDownload');
+     downloadBtn.setAttribute('href', url);
+   })
+   .catch((error) => {
+     console.log(error)
+   });   
+   
     if(this.props.data){
       var name = this.props.data.name;
       var profilepic= "images/"+this.props.data.image;
@@ -13,7 +24,6 @@ class About extends Component {
       var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
       var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
     }
 
     return (
@@ -40,7 +50,7 @@ class About extends Component {
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button" download><i className="fa fa-download"></i>Download Resume</a>
+                     <a className="button" download id="resumeDownload" target="_blank"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>
