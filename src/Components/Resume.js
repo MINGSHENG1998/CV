@@ -59,6 +59,16 @@ class Resume extends Component {
           </li>
         );
       });
+      var distribution = this.props.data.technologies.distribution.map(function (
+        distribution
+      ) {
+        return (
+          <li className="technologies-items">
+            <img src={distribution.IconUrl}/>
+            <p>{distribution.name}</p>
+          </li>
+        );
+      });
       var publications = this.props.data.publications.map(function (
         publications
       ) {
@@ -128,9 +138,13 @@ class Resume extends Component {
                   <h4>Backend</h4>
                   <ul>{backend}</ul>
                 </td>
-                <td className="last-item">
+                <td>
                   <h4>Hosting</h4>
                   <ul>{hosting}</ul>
+                </td>
+                <td className="last-item">
+                  <h4>Distribution</h4>
+                  <ul>{distribution}</ul>
                 </td>
               </tr>
             </table>
